@@ -1,0 +1,108 @@
+html{
+    background-color: #c3ced4;
+    height: 100%;
+}
+
+.header{
+  
+    background-color: rgb(136, 132, 228);
+    border-radius: 10px;
+    margin-top: 3px;
+    border: 1px solid #000;
+}
+.btn-primary{
+ 
+    margin-top: 5px;
+ 
+    margin-right: 25px;
+}
+.btn-primary a{
+    color:#e5e1ea;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 3px;
+    color: #c3ced4;
+}
+.botones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #6277aa;
+    margin-top: 5px;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    border: 1px solid #000;
+
+}
+.sidebar1{
+  margin-top:6px;
+  width: 20%;
+  background-color: #7c7699;
+  padding: 15px;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #000;
+  padding-bottom:125px;
+
+}
+.c1{
+    color: red;
+}
+.btn-group{
+    background-color: #7c7699;
+    margin-top: 2px;
+}
+.main{
+    width: 20%;
+    flex-grow: 1;
+    margin: 0 10px;
+    border:1px solid #000;
+    margin-top: 6px;
+    padding-bottom:163px ;
+    border:1px solid #000;
+    border-radius: 10px;
+    background-color: #7c7699;
+    display: flex;
+    justify-content: space-between;
+    
+
+
+}
+.sidebar2{
+   margin-top: 6px;
+   background-color:#7c7699 ;
+   width: 20%;
+   padding-bottom: 550px;
+   border-radius: 10px;
+   padding-left: 3px;
+   border: 1px solid #000;
+
+}
+.position{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 auto;
+}
+.sidebar2 p{
+    color: #c3ced4;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.footer{
+    border:1px solid #000;
+    border-radius: 10px;
+    background-color: #7c7699;
+    margin-top: 5px;
+}
+.table{
+    height: 100px;
+}
+.card{
+    height: 100px;
+}
